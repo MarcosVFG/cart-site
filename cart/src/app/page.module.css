@@ -1,0 +1,48 @@
+.fundoAzul{
+  width: 150%;
+  height: 700px;
+}
+
+.principal{
+  display: flex;
+  flex-direction: row;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.formularioDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.divForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartaoFrente {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  z-index: 2;
+}
+
+.cartaoTras {
+  position: absolute;
+  left: 16%;
+  top: 57%;
+  z-index: 3;
+}
+
+.dataPlusCvc {
+  display: flex;
+}
