@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-left: 30%;
 
 }
 
@@ -27,6 +28,20 @@
 .divForm {
   display: flex;
   flex-direction: column;
+}
+
+.divForm2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.textin{
+  position: absolute;
+  left: 13%;
+  top: 35%;
+  z-index: 4;
+  font-size: 2em;
+  color: #fff;
 }
 
 .cartaoFrente {
@@ -45,4 +60,142 @@
 
 .dataPlusCvc {
   display: flex;
+  flex-direction: row;
+}
+
+.textin2{
+  position: absolute;
+  left: 13%;
+  top: 46%;
+  z-index: 4;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.textin3{
+  position: absolute;
+  left: 35%;
+  top: 46%;
+  z-index: 4;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.textin4{
+  position: absolute;
+  left: 37.5%;
+  top: 45.5%;
+  z-index: 4;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.textin5{
+  position: absolute;
+  left: 38.4%;
+  top: 46%;
+  z-index: 4;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.textin6{
+  position: absolute;
+  left: 41%;
+  top: 73.5%;
+  z-index: 4;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.botao{
+  width: 400px;
+  height: 45px;
+  background-color:#21082F;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.botao:active {
+  transform: scale(0.99);
+}
+
+.entrada {
+  width: 400px;
+  height: 45px;
+  font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.entrada2 {
+  width: 400px;
+  height: 45px;
+  font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.entrada3 {
+  width: 70px;
+  height: 45px;
+  font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.entrada4 {
+  width: 70px;
+  height: 45px;
+  font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-left: 15px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.entrada5 {
+  width: 200px;
+  height: 45px;
+  font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-left: 15px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.cvc{
+  padding-left: 20px;
 }

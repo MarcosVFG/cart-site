@@ -29,6 +29,9 @@ body {
 	line-height: 1;
 	overflow: hidden;
 	font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 2px;
+    text-transform: uppercase;
+	color:#21082F;
 }
 ol, ul {
 	list-style: none;
